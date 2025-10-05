@@ -8,11 +8,7 @@ import subprocess
 import collections
 
 PRINT_ASSET_INFO = False
-API_KEY = os.environ.get("IMMICH_API_KEY")
 GPHOTOS_DIR = os.environ.get("GPHOTOS_DIR")
-SERVER_URL = "https://immich.jcarreira.pt"
-SHARED_FOLDER = "/media/photos/"
-
 API_KEY = os.environ.get("IMMICH_API_KEY")
 SERVER_URL = os.environ.get("IMMICH_SERVER_URL")
 SHARED_FOLDER = os.environ.get("PHOTOS_SHARED_FOLDER")
